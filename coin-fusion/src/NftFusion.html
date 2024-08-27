@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Fusion</title>
+    <link rel="stylesheet" href="nft_fusion.css">
+    <script src="https://cdn.jsdelivr.net/npm/ethers@5.6.0/dist/ethers.min.js"></script>
+    <script src="app.js" defer></script>
+</head>
+<body data-page="nft_fusion">
+    <header>
+        <h1>NFT Fusion App</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="connect_wallet.html">Connect Wallet</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="nft_fusion.html">NFT Fusion</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="fusion-container">
+            <h2>NFT Fusion</h2>
+            <p>Enter the IDs of the NFTs you want to fuse, separated by commas.</p>
+            <label for="nftTokenIds">Enter Token IDs (comma-separated):</label>
+            <input type="text" id="nftTokenIds" placeholder="e.g. 1,2,3">
+            <button id="fuseButton">Fuse NFTs</button>
+            <div id="fusionResult"></div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 NFT Fusion App. All rights reserved.</p>
+    </footer>
+</body>
+</html>
