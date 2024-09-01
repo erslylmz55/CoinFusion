@@ -1,37 +1,45 @@
-https://github.com/erslylmz55/Fusion-To-Future (BU BENİM YENİ GİTHUB REPOM RISEIN SİTESİ ÇALIŞMADIĞI İÇİN GÜNCELLEYEMEDİM VE BURAYA EKLEDİM).
+https://github.com/erslylmz55/Fusion-the-futures (BU BENİM YENİ GİTHUB REPOM RISEIN SİTESİ ÇALIŞMADIĞI İÇİN GÜNCELLEYEMEDİM VE BURAYA EKLEDİM).
+projeye ulaşmak için icp-eth-starter-main/src yollarını izleyerek src içindeki index.html dosyasını çalıştırmanız gerekiyor.
 Sunum Başlığı: CoinFusion Projesi
-1. Giriş
-Proje Adı: CoinFusion
-Amaç: Bu proje, kullanıcıların Ethereum tabanlı iki farklı tokeni birleştirerek yeni bir token oluşturmasını sağlayan bir platform sunar. Ayrıca, platform üzerinde NFT'lerin nadirliğine göre fusion işlemleri de yapılabilir.
-2. Projenin Bileşenleri
-Frontend: HTML, CSS ve JavaScript kullanılarak oluşturulmuş kullanıcı arayüzü. Her özellik için ayrı HTML ve CSS dosyaları kullanılmıştır.
-Akıllı Kontrat: Solidity kullanılarak yazılmış akıllı kontratlar. Bu kontratlar, Ethereum blockchain üzerinde token mint etme, transfer etme ve birleştirme işlemlerini gerçekleştirir.
-Wallet Bağlantısı: Kullanıcıların MetaMask cüzdanlarını uygulamaya bağlayarak işlemleri gerçekleştirmelerini sağlar.
-3. Uygulamanın İşleyişi
-Adım 1: Cüzdan Bağlantısı
+Proje Sunumu: Coin Fusion Uygulaması
+1. Proje Tanıtımı
+Coin Fusion uygulaması, kullanıcıların çeşitli tokenleri birleştirerek yeni ve nadir tokenler oluşturmalarını sağlayan bir Web3 uygulamasıdır. Ayrıca, kullanıcıların NFT'leri birleştirip yeni NFT'ler oluşturabildikleri bir NFT fusion özelliği de içerir. Proje, Ethereum tabanlı akıllı kontratlar ve modern web teknolojileri kullanılarak geliştirilmiştir.
 
-Kullanıcı, uygulama üzerinde bulunan "Connect Wallet" butonuna tıklayarak MetaMask cüzdanını bağlar.
-Bağlantı başarılı olduğunda, kullanıcı cüzdan adresi arayüzde görüntülenir.
-Adım 2: Token Fusion
-
-Kullanıcı, "Coin Fusion" sayfasına geçer.
-İki farklı tokeni seçerek bu tokenleri birleştirmek için gerekli bilgileri girer.
-"Mint Token" butonuna tıklayarak işlemi başlatır.
-Akıllı kontrat, belirtilen miktarda yeni tokeni mint eder ve kullanıcıya gönderir.
-Adım 3: NFT Fusion
-
-Kullanıcı, "NFT Fusion" sayfasına geçer.
-Sahip olduğu NFT'leri seçer ve bu NFT'lerin nadirliğine göre bir fusion işlemi gerçekleştirir.
-Nadirliğine göre fusion işlemi sonucunda yeni bir NFT veya token elde edilir.
-4. Akıllı Kontratın İşleyişi
-Yeni Token Oluşturma (Minting): Solidity ile yazılan kontrat, belirli bir adres için yeni tokenlerin oluşturulmasını sağlar.
-Fusion İşlemi: Seçilen tokenler veya NFT'ler, belirli kurallara göre birleştirilir ve yeni bir varlık oluşturulur.
-NFT Nadirlik Hesaplama: Kontrat, bir NFT'nin nadirliğini hesaplayarak fusion işlemlerinde bu değeri kullanır.
-5. Sonuç
-Projenin Katkıları:
-Blockchain teknolojisini kullanarak token ve NFT işlemlerini kolaylaştırır.
-Kullanıcı dostu bir arayüz sunarak teknik bilgi gerektirmeyen işlemler yapılmasını sağlar.
-Gelecekteki Geliştirmeler:
-Daha fazla token ve NFT desteği eklemek.
-Kullanıcıların işlem geçmişlerini görüntüleyebilecekleri bir dashboard oluşturmak.
-  
+2. Eklenen Özellikler
+2.1. Madeni Para Füzyonu
+Açıklama: Coin Fusion özelliği, kullanıcıların mevcut tokenlerini birleştirerek yeni ve nadir tokenler yaratmalarını sağlar.
+HTML: Kullanıcıların tokenlerini birleştirebileceği bir form içerir.
+CSS :
+JavaScript: Token birleştirme işlemlerini yöneten fonksiyonlar ve kullanıcı etkileşimleri.
+Sağlamlık : T
+NFT Füzyonu
+Açıklama: NFT Fusion özelliği, kullanıcıların mevcut NFT'lerini birleştirerek yeni ve nadir NFT'ler oluşturabilmelerini sağlar.
+HTML: NFT'leri birleştirmek için kullanıcı dostu bir arayüz sunar.
+CSS: Siyah arka plan ve beyaz yazılar ile estetik bir görünüm sağlar.
+JavaScript :
+Solidity: NFT'lerin birleştirilmesini ve nadirliklerini hesaplayan akıllı kontratlar.
+2.3. Kullanıcı Tarafından Oluşturulan Füzyon Zorlukları
+Açıklama: Kullanıcıların kendi fusion (birleştirme) zorluklarını oluşturabileceği bir özellik. Bu, kullanıcıların kendi nadir token veya NFT'lerini yaratmaları için yaratıcı senaryolar oluşturmasını sağlar.
+HTML: Kullanıcıların zorluklarını tanımlayabilecekleri bir form içerir.
+CSS: Siyah arka plan ve beyaz yazılar ile tasarlanmış bir arayüz.
+JavaScript: Kullanıcı tarafından oluşturulan zorlukları yönetir ve kaydeder.
+Solidity: Kullanıcı tarafından oluşturulan zorlukları yöneten ve doğrulayan akıllı kontratlar.
+3. Teknolojiler
+3.1. Önyüz
+HTML: Uygulamanın temel yapısını oluşturan işaretleme dili.
+CSS: Uygulamanın görünümünü ve stilini tanımlar.
+JavaScript :
+3.2. Arka uç
+Solidity: Ethereum tabanlı akıllı kontratlar yazmak için kullanılan dil. Token ve NFT birleştirme işlemleri için kullanılır.
+4. Kullanıcı Deneyimi
+Kolay Erişim: Kullanıcıların token ve NFT'lerini kolayca birleştirebileceği ve yönetebileceği kullanıcı dostu arayüzler.
+Hızlı İşlem: Akıllı kontratlar aracılığıyla hızlı ve güvenli işlemler.
+Kişiselleştirme: Kullanıcıların kendi fusion zorluklarını oluşturup paylaşabilmeleri.
+5. Geliştirme ve Dağıtım
+GitHub: Proje dosyaları ve kodlar GitHub üzerinde yönetilmektedir.
+Deploy: Akıllı kontratlar Ethereum ağına deploy edilmiştir.
+Sunucu: Uygulamanın frontend kısmı web sunucusuna yüklenmiştir.
+6. Gelecek Planları ve Yenilikler
+Gelişmiş Fusion Özellikleri: Daha fazla özelleştirme ve kombinasyon seçenekleri.
+Yapay Zeka Entegrasyonu: NFT'lerin nadirliğini ve değerini tahmin eden AI özellikleri.
+Mobil Uyumlu Tasarım: Mobil cihazlar için uyumlu arayüzler ve işlevsellik.
